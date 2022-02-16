@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01F5797A8EABBDE8710FEC1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		01F5797A8EABBDE8710FEC1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		34F0851943AE403E39BFDFDB /* Pods-MathUtilityLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathUtilityLib_Example.release.xcconfig"; path = "Target Support Files/Pods-MathUtilityLib_Example/Pods-MathUtilityLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5A731C07CAB37A2AF1C70F05 /* Pods-MathUtilityLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathUtilityLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-MathUtilityLib_Example/Pods-MathUtilityLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5CE694386EDF71CF4413D20E /* Pods-MathUtilityLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathUtilityLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MathUtilityLib_Tests/Pods-MathUtilityLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7CD027DDB8537706B4DDDB08 /* Pods_MathUtilityLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathUtilityLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B162C2ADF7438B0A3B8588AC /* MathUtilityLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MathUtilityLib.podspec; path = ../MathUtilityLib.podspec; sourceTree = "<group>"; };
-		E990C26EB11B5FD2C6257798 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B162C2ADF7438B0A3B8588AC /* MathUtilityLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MathUtilityLib.podspec; path = ../MathUtilityLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E990C26EB11B5FD2C6257798 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F927EDC1C0CFBFF754C668C2 /* Pods_MathUtilityLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathUtilityLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94587E17493357A0AB66CFD /* Pods-MathUtilityLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathUtilityLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-MathUtilityLib_Tests/Pods-MathUtilityLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				5CE694386EDF71CF4413D20E /* Pods-MathUtilityLib_Tests.debug.xcconfig */,
 				F94587E17493357A0AB66CFD /* Pods-MathUtilityLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

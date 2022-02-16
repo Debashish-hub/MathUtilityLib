@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import MathUtilityLib
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let math = MathUtility()
+        let res1 = math.multiply(a: 10, b: 20)
+        let res2 = math.add(a: 10, b: 20)
+        print(res1)
+        print(res2)
     }
 
     override func didReceiveMemoryWarning() {
