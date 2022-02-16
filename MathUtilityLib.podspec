@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'MathUtilityLib'
+  s.name             = 'DebaMathUtilityLib'
   s.version          = '0.1.1'
   s.summary          = 'Demo Framework'
 
